@@ -1,13 +1,16 @@
 import React from 'react';
 import './style.css';
 import Nav from '../../components/nav';
+import SearchTask from '../../components/search-tasks';
 
 function Home() {
 
     return (
         <React.Fragment>
+
             <Nav></Nav>
-            <p className='home' >Hello i´m home page</p>
+            <SearchTask></SearchTask>
+
         </React.Fragment>
 
     )
