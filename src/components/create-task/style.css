@@ -1,0 +1,63 @@
+
+
+
+.form {
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area-container{
+
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textareainput {
+
+    width: 300px;
+    height: 60px;
+    border-color: #009ff5;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+.buttons-container {
+
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.buttonadd {
+
+    width: 145px;
+    height: 30px;
+    background-color: #2ea44f;
+    border: solid 1px;
+    border-color: #32904b;
+    border-radius: 5px;
+    color: #e9eaeb;
+    margin-top: 5px;
+
+}
+
+
+.buttoncancel {
+
+    width: 145px;
+    height: 30px;
+    background-color: #ececec;
+    border: solid 1px;
+    border-color: #fafbfc;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 5px;
+
+}
