@@ -1,0 +1,22 @@
+.nav{
+
+    background-color:#ff9900;
+    min-width: auto ;
+    height: 70px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.img {
+
+ height: 40px;
+ margin-left: 20px;
+
+}
+
+.text{
+    color: #ffffff;
+    margin-left: 10px;
+}
