@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Nav from '../../components/nav';
 import SearchTask from '../../components/search-tasks';
-import CreateTask from '../../components/create-task';
+import CardList from '../../components/Card-list';
 
 function Home() {
 
@@ -11,7 +11,7 @@ function Home() {
 
             <Nav></Nav>
             <SearchTask></SearchTask>
-            <CreateTask></CreateTask>
+            <CardList></CardList>
 
         </React.Fragment>
 
