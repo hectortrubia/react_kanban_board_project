@@ -44,6 +44,7 @@
     border-radius: 5px;
     color: #e9eaeb;
     margin-top: 5px;
+    font-weight: bold;
 
 }
 
@@ -54,9 +55,10 @@
     height: 30px;
     background-color: #ececec;
     border: solid 1px;
-    border-color: #fafbfc;
+    border:1px solid #979797;
     border-radius: 5px;
     color: #000000;
     margin-top: 5px;
+    font-weight: bold;
 
 }
