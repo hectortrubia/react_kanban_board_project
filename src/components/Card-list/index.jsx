@@ -2,6 +2,7 @@ import "./style.css";
 import React from "react";
 import CreateTask from "../create-task";
 import { useState } from "react";
+import TaskCard from "../task-card";
 
 function CardList() {
 
@@ -22,17 +23,18 @@ function CardList() {
 
             <div className="list-container-todo">
                 <div className="header-card-list">
-                    <div className= "left-header">
+                    <div className="left-header">
                         <div className="circle"></div>
                         <div className="to-do">To do</div>
                     </div>
-                    <div className= "button-container">
+                    <div className="button-container">
                         <button className="button-task" onClick={handlerCreateTask}>+</button>
                     </div>
                 </div>
                 <div className="new-task">
-                {newTask === true ? <CreateTask></CreateTask> : <></>}
+                    {newTask === true ? <CreateTask></CreateTask> : <></>}
                 </div>
+                <TaskCard></TaskCard>
 
             </div>
 
