@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Nav from '../../components/nav';
 import SearchTask from '../../components/search-tasks';
-import CardList from '../../components/card-list';
+import CardList from '../../components/Card-list';
 
 function Home() {
 
